@@ -1,0 +1,40 @@
+{
+  "name": "send-ip-in-discord",
+  "version": "0.0.1",
+  "description": "Send server IP address to TAK discord server whenever the server starts up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tak-etsu/send-ip-in-discord.git"
+  },
+  "keywords": [
+    "why",
+    "didn't",
+    "they",
+    "just",
+    "give",
+    "me",
+    "a",
+    "working",
+    "hostname",
+    "or",
+    "a",
+    "static",
+    "ip",
+    "address",
+    "?"
+  ],
+  "author": "Ryan Haas (haasrr@outlook.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tak-etsu/send-ip-in-discord/issues"
+  },
+  "homepage": "https://github.com/tak-etsu/send-ip-in-discord#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
+}

@@ -1,0 +1,13 @@
+# Copy to /etc/systemd/system
+
+Description=Send server IP address to TAK discord server whenever the server starts up
+
+After=network-online.target
+Wants=network-online.target systemd-networkd-wait-online.service
+
+[Service]
+WorkingDirectory=/home/tak/send-ip-in-discord
+ExecStart=/usr/local/bin/node .
+
+[Install]
+WantedBy=multi-user.target
